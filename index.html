@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>PBS Component Library Kickoff</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Chip Cullen">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>PBS Component Library</h1>
+					<h3>Kickoff Meeting - 9/2/15</h3>
+					<p>
+						<small>Facilitated by <a href="http://chipcullen.com">Chip Cullen</a> / <a href="http://twitter.com/chipcullen">@chipcullen</a></small>
+					</p>
+				</section>
+
+				<section>
+					<img src="images/walking_lego_man.gif" alt="">
+				</section>
+				<section>
+					<h2>Outcomes</h2>
+					<ul>
+						<li>Shared understanding <em>and buy in</em> of
+							<ul>
+								<li>Needs and benefits</li>
+								<li>Governance</li>
+								<li>Taxonomy / Categories</li>
+							</ul>
+						</li>
+						<li>Agreed upon names for problematic components</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Agenda</h2>
+					<ul>
+						<li>(5 mins) Recap of what a component library is</li>
+						<li>(15 minutes) Report to the group what was heard during interviews, open discussion of new thoughts</li>
+						<li>(10 minutes) Governance model, pinpoint cultural change</li>
+						<li>(15 minutes) Presentation of categories suggestion, request for feedback</li>
+						<li><em>(10 minutes) Break</em></li>
+						<li>(50 minutes) Group exercises for naming problematic components</li>
+						<li>(15 minutes) Next actions, open discussion, Q&A</li>
+					</ul>
+				</section>
+
+				<section>
+					<img src="images/GIF-stepping-on-a-Lego.gif" alt="">
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>What is a component library?</h2>
+					</section>
+					<section>
+						<p>A centralized design artifact that demonstrates the sum total of pieces that go into a digital product.</p>
+						<ul>
+							<li class="fragment">"Style Guide"</li>
+							<li class="fragment">"Pattern Library"</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Lonely Planet</h2>
+
+						<br>
+						<a href="http://rizzo.lonelyplanet.com/styleguide/design-elements/colours">
+							<img src="images/lonelyplanet.png" alt="" height="450">
+						</a>
+					</section>
+					<section>
+						<h2>Code for America</h2>
+
+						<br>
+						<a href="https://style.codeforamerica.org/">
+							<img src="images/codeforamerica.png" alt="" height="450">
+						</a>
+					</section>
+					<section>
+						<h2>Yelp</h2>
+
+						<br>
+						<a href="http://www.yelp.com/styleguide">
+							<img src="images/yelp.png" alt="" height="450">
+						</a>
+					</section>
+					<section>
+						<h2>Primary Benefits</h2>
+						<ul>
+							<li class="fragment">Design Consistency</li>
+							<li class="fragment">Concrete Vocabulary</li>
+							<li class="fragment">Demonstrate "What is Possible"</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h2>Interview Results</h2>
+					<img src="images/repeat.gif" alt="">
+				</section>
+
+				<section>
+					<p>
+						<strong>8 interviews</strong> were conducted across our organization to get a larger sense of
+					</p>
+					<ul>
+						<li class="fragment">What the benefits could be</li>
+						<li class="fragment">Potential pitfalls</li>
+						<li class="fragment">Ideas to incorporate</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Large themes</h2>
+					<ul>
+						<li class="fragment">Unanimous positive reaction</li>
+						<li class="fragment">Bento could see the most benefit</li>
+						<li class="fragment">.org should be the immediate priority</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Unanimous positive reaction</h2>
+					<p>
+						"We've needed this for a long time."
+					</p>
+					<p>
+						"This is way overdue."
+					</p>
+					<p>
+						<img src="images/lego_in_a_lego.gif" alt="">
+					</p>
+				</section>
+
+				<section>
+					<section>
+						<h2>Bento could see the most benefit</h2>
+						<p class="fragment">Single biggest thing:<br /><strong>Demonstrate what can be done with Bento</strong></p>
+					</section>
+
+					<section>
+						<h2>Aid in</h2>
+						<ul>
+							<li class="fragment"><strong>Marketing the product</strong></li>
+							<li class="fragment">Preventing support requests</li>
+							<li class="fragment">Easier "drive by" documentation</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h2>.org should be the immediate priority</h2>
+					<ul>
+						<li class="fragment">Higher priority product currently</li>
+						<li class="fragment">Audience is internal</li>
+						<li class="fragment">Would allow for the process to get solidified</li>
+					</ul>
+				</section>
+
+				<section>
+					<section>
+						<h2>What does <em>success</em> look like?</h2>
+						<img src="images/rays_from_computer.gif" alt="">
+					</section>
+					<section>
+						<h2>What does <em>success</em> look like?</h2>
+						<ul>
+							<li class="fragment">An online, public resource that documents all<sup><small>*</small></sup> components</li>
+							<li class="fragment">Provides clear nomenclature</li>
+							<li class="fragment">Actively used by entire digital team</li>
+							<li class="fragment"><strong>Kept up to date and is trusted to be so</strong></li>
+							<li class="fragment">Other thoughts?</li>
+						</ul>
+					</section>
+					<section>
+						<h2>What does <em>failure</em> look like?</h2>
+						<img src="images/lego_fail.gif" alt="">
+					</section>
+					<section>
+						<h2>What does <em>failure</em> look like?</h2>
+						<ul>
+							<li class="fragment">Falls out of date, is abandoned</li>
+							<li class="fragment">Is not trusted, thus is ignored</li>
+							<li class="fragment">Fails to provide central design reference</li>
+						</ul>
+					</section>
+					<section>
+						<h2>New thoughts?</h2>
+						<p>Have you worked with a simliar library in the past?</p>
+						<p>Any new benefits that you can think of?</p>
+						<p>(Open discussion)</p>
+					</section>
+				</section>
+
+				<section>
+					<h2>Governance</h2>
+				</section>
+				<section>
+					<img src="images/governance-horizontal-02.png" alt="" height="">
+				</section>
+
+				<section>
+					<img src="images/stardestroyer_destruction.gif" alt="">
+				</section>
+				<section>
+					<h2>Categories</h2>
+					<ul>
+						<li class="fragment">Content</li>
+						<li class="fragment">Global</li>
+						<li class="fragment">Personalization</li>
+						<li class="fragment">Social</li>
+						<li class="fragment">Sponsorship</li>
+						<li class="fragment">Search</li>
+						<li class="fragment">Video</li>
+						<li class="fragment"><em>Thoughts?</em></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Break!</h2>
+				</section>
+
+				<section>
+					<h3>Group Exercise:</h3>
+					<h2>Naming problematic components</h2>
+				</section>
+
+				<section>
+					<h2>Naming problematic components</h2>
+					<ul>
+						<li>Six problematic components</li>
+						<li>Two minutes to think of as many names as possible</li>
+						<li>Ideas will be gathered</li>
+						<li>Emerging names will be voted on with dots</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Naming Criteria</h2>
+					<h3>Aim for</h3>
+					<ul>
+						<li class="fragment">Succinct</li>
+						<li class="fragment">Concrete</li>
+						<li class="fragment">Nouns</li>
+					</ul>
+					<hr>
+					<h3>Avoid</h3>
+					<ul>
+						<li class="fragment">Aesthetic (e.g. "Red box")</li>
+						<li class="fragment">Context (e.g. "Home Page box")</li>
+						<li class="fragment">Content (e.g. "NOVA Tweets")</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>#1</h2>
+					<img src="images/Carousel%20--%20Home.png" alt="">
+					<ul>
+						<li>Rotates slides</li>
+						<li>Each slide contains multiple different links</li>
+						<li>Contains up to 5 slides, possibly unrelated</li>
+						<li>May or may not contain branding</li>
+					</ul>
+				</section>
+
+				<section>
+				<h2>#2</h2>
+
+					<img src="images/Carousels.png" alt="">
+					<ul>
+						<li>Two variations</li>
+						<li>First one has one link per slide</li>
+						<li>Second has multiple links, though each is a large target</li>
+					</ul>
+				</section>
+
+				<section>
+				<h2>#3</h2>
+
+					<img src="images/Producer%20--%20Featured%20Content.png" alt="">
+					<ul>
+						<li>Contains one image</li>
+						<li>Descriptive text, with supporting meta title</li>
+						<li>Single call to action</li>
+					</ul>
+				</section>
+
+				<section>
+				<h2>#4</h2>
+
+					<img src="images/videoplayer_meta.png" alt="" height="300">
+					<ul>
+						<li>Describes a piece of video content</li>
+						<li>Contains meta information and features</li>
+						<li>Contains shopping / social links</li>
+					</ul>
+				</section>
+
+				<section>
+				<h2>#5</h2>
+
+					<img src="images/videoplayer_links.png" alt="">
+					<ul>
+						<li>Also associated with video content</li>
+						<li>Contains external links</li>
+					</ul>
+				</section>
+
+				<section>
+				<h2>#6</h2>
+
+					<img src="images/videoplayer_learnmore.png" alt="">
+					<ul>
+						<li>Also associated with video content</li>
+						<li>Is optional</li>
+						<li>Contains external links with thumbnails</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Next Actions</h2>
+					<ul>
+						<li class="fragment">Chip: start building the site</li>
+						<li class="fragment">Chip &amp; Meg: start documenting components</li>
+						<li class="fragment">Everyone: <em>think</em> in components</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Open Discussion / Q&amp;A</h2>
+				</section>
+
+				<section style="text-align: left;">
+					<h1>Thank you!</h1>
+					<p>
+
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
